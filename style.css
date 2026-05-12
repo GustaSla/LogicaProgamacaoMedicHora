@@ -1,0 +1,288 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     background-color: #4F7CAC;
+     width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+     border-radius: 10px;
+     margin: auto;
+
+ }
+
+ .cabecalho {
+     background-color: #C0E0DE;
+     margin: 0%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     display: block;
+     place-items: center;
+     margin-top: 30px;
+     border-radius: 10px;
+     padding: 15px;
+     margin: auto;
+ }
+
+ .cabecalho img {
+     float: left;
+     width: 30px;
+     height: 30px;
+ }
+
+ .subtitulo {
+     color: #3C474B;
+     font-size: small;
+ }
+
+ .dados {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     min-height: 150px;
+     max-width: 80%;
+     margin: 0 auto;
+     margin: auto;
+     background-color: #C0E0DE;
+     margin-top: 15px;
+ }
+
+ .dados div {
+     width: 435px;
+     font-size: 25px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     height: 135px;
+     margin-top: 30px;
+
+ }
+
+ .nome form {
+     margin-left: 10px;
+     border: none;
+     outline: none;
+     box-shadow: none;
+ }
+
+ .nome form input {
+     border: none;
+     background-color: #7b9e98;
+     height: 30px;
+     font-size: 20px;
+     border-radius: 5px;
+ }
+
+ .nome ::placeholder {
+     color: #C0E0DE;
+ }
+
+ .email form input {
+     border: none;
+     background-color: #7b9e98;
+     height: 30px;
+     font-size: 20px;
+     border-radius: 5px;
+ }
+
+ .email form label {
+     margin-right: 10px;
+ }
+
+ .email ::placeholder {
+     color: #C0E0DE;
+ }
+
+ .email input {
+     width: 80%;
+ }
+
+ .data form input {
+     border: none;
+     background-color: #7b9e98;
+     height: 30px;
+     font-size: 20px;
+     border-radius: 5px;
+     max-width: fit-content;
+ }
+
+ .medicamento {
+     display: flex;
+     justify-content: left;
+     min-height: 100px;
+     margin-left: 10%;
+     background-color: #C0E0DE;
+     max-width: 80%;
+     margin: auto;
+ }
+
+ .nome_med {
+     border: #3C474B;
+ }
+
+ .nome_med p {
+     margin-left: 10px;
+ }
+
+ .medicamento div {
+     background: #C0E0DE;
+     width: 335px;
+     font-size: 25px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     height: 135px;
+ }
+
+ .nome_med form {
+     margin-left: 10px;
+ }
+
+
+ .nome_med form input {
+     border: none;
+     background-color: #7b9e98;
+     height: 30px;
+     font-size: 20px;
+     border-radius: 5px;
+ }
+
+ .nome_med ::placeholder {
+     color: #C0E0DE;
+     font-size: 90%;
+ }
+
+ .medicamento_p {
+     justify-content: center;
+     display: flex;
+ }
+
+ .medicamento .medicamento_p form {
+     font-size: 20px;
+     margin-top: 35px;
+     background-color: #7b9e98;
+     height: 30px;
+     width: 100%;
+     border-radius: 5px;
+ }
+
+ .medicamento_p input {
+     cursor: pointer;
+ }
+
+ .medicamento .medicamento_p label {
+     width: 100%;
+     margin-left: 15px;
+ }
+
+ .dosagem {
+     display: flex;
+     justify-content: left;
+     min-height: 100px;
+     margin-left: 10%;
+     background-color: #C0E0DE;
+     max-width: 80%;
+
+ }
+
+
+ .dosagem_mg p {
+     font-size: 30px;
+ }
+
+
+ .dosagem div {
+     width: 335px;
+     font-size: 15px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     height: 135px;
+     margin-left: 10px;
+ }
+
+ .dosagem form {
+     display: inline-flex;
+     overflow: hidden;
+     border: #7b9e98 solid;
+     width: 90%;
+     background-color: #7b9e98;
+     border-radius: 5px;
+
+ }
+
+ .dosagem label {
+     font-size: 13px;
+     width: 50px;
+ }
+
+ .dosagem input {
+     cursor: pointer;
+ }
+
+ .dosagem .quant {
+     margin-top: 30px;
+     background-color: #7b9e98;
+     height: 55px;
+     width: 20%;
+
+
+
+ }
+
+ .quant label {
+     font-size: 15px;
+
+
+ }
+
+ .quant input {
+     border-radius: 5px;
+     height: 20px;
+     width: 75%;
+     margin-left: 5px;
+ }
+
+ .quant p {
+     font-size: 12px;
+     color: rgb(63, 63, 63);
+ }
+
+ .btn {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: #C0E0DE;
+     max-width: 80%;
+     height: 50px;
+     margin-left: 10%;
+ }
+
+ button {
+     background-color: #495E5A;
+     color: #C0E0DE;
+     font-size: 20px;
+     width: 50%;
+     height: 45px;
+     border-radius: 10px;
+ }
+
+ .resultado {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 100px;
+     background-color: #C0E0DE;
+     min-height: 150px;
+     max-width: 80%;
+     margin: 0 auto;
+     margin-top: 20px;
+     border-radius: 20px;
+ }
+
+ .check {
+     float: left;
+
+     img {
+         width: 100px;
+     }
+ }
+
+ .resultado_escrito {}
+
+ .calen {}
