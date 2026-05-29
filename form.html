@@ -27,10 +27,10 @@
     </header>
 
     <div class="dados">
-        <div class="nome">
+        <!-- <div class="nome"> -->
             <form action="">
                 <label for="nome">Nome do usuário</label>
-                <input id="nome" type="text" placeholder="Digite seu nome" name="nome"  required>
+                <input id="nome" type="text" placeholder="Digite seu nome" name="nome" required>
             </form>
         </div>
         <div class="email">
@@ -91,20 +91,31 @@
 
     <div class="resultado">
         <div class="check">
-<img src="/img/icons8-selecionado-24.png" alt="">
+            <img src="/img/icons8-selecionado-24.png" alt="">
         </div>
         <div resultado_escrito>
             <h2>Resultado</h2>
             <p>Você tomará 1.000mg por dia</p>
-            </div>
+        </div>
     </div>
     <div class="calen">
 
     </div>
     </div>
 
-<script src="js/app.js"></script>
-<script src="js/logic.js"></script>
+    <div id="btn">
+        <button id="btnReset">
+            Limpar o Formulário
+        </button>
+
+        <button id="btnSalvar">
+            Salvar
+        </button>
+    </div>
+    
+    <script src="js/app.js"></script>
+    <script src="js/logic.js"></script>
+
 
 </body>
 
